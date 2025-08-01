@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
    compiler: {
     styledComponents: true,
   },
+  // experimental:{
+  //   ppr: 'incremental'
+  // }
 };
 
 export default nextConfig;
